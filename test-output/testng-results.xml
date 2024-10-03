@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="14" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-03T22:59:18 IST" name="Suite" finished-at="2024-10-03T23:11:57 IST" duration-ms="758574">
+    <groups>
+    </groups>
+    <test started-at="2024-10-03T22:59:18 IST" name="ChromeTest" finished-at="2024-10-03T23:07:28 IST" duration-ms="489526">
+      <class name="com.automation.Automation2.HandlingVideo">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.HandlingVideo@5dda768f]" started-at="2024-10-03T23:03:26 IST" name="setup" finished-at="2024-10-03T23:04:14 IST" duration-ms="48066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HandlingVideo()[pri:0, instance:com.automation.Automation2.HandlingVideo@5dda768f]" started-at="2024-10-03T23:04:14 IST" name="HandlingVideo" finished-at="2024-10-03T23:04:19 IST" duration-ms="4900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlingVideo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.HandlingVideo@5dda768f]" started-at="2024-10-03T23:04:19 IST" name="teardown" finished-at="2024-10-03T23:04:20 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.HandlingVideo -->
+      <class name="com.automation.Automation2.dragandDropMultiple">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.dragandDropMultiple@49438269]" started-at="2024-10-03T22:59:51 IST" name="setup" finished-at="2024-10-03T23:00:18 IST" duration-ms="27071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dragandDropMultiple()[pri:0, instance:com.automation.Automation2.dragandDropMultiple@49438269]" started-at="2024-10-03T23:00:18 IST" name="dragandDropMultiple" finished-at="2024-10-03T23:00:37 IST" duration-ms="19016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragandDropMultiple -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.dragandDropMultiple@49438269]" started-at="2024-10-03T23:00:37 IST" name="teardown" finished-at="2024-10-03T23:00:38 IST" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.dragandDropMultiple -->
+      <class name="com.automation.Automation2.fileUploadPopup">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.fileUploadPopup@ba2f4ec]" started-at="2024-10-03T23:00:38 IST" name="setup" finished-at="2024-10-03T23:01:23 IST" duration-ms="44739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fileUploadPopup()[pri:0, instance:com.automation.Automation2.fileUploadPopup@ba2f4ec]" started-at="2024-10-03T23:01:23 IST" name="fileUploadPopup" finished-at="2024-10-03T23:01:27 IST" duration-ms="4366" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[File not found: /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f050e4f0-3105-42ed-8919-91403844ffde, sendKeysToElement {id=7bbfb504-5415-47de-a69b-fc033cfeea9f, value=[Ljava.lang.CharSequence;@232024b9}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3805, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (f050e4f0-3105-42ed-8919-91403844ffde)] -> id: fileInput]
+Session ID: f050e4f0-3105-42ed-8919-91403844ffde]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: File not found: /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f050e4f0-3105-42ed-8919-91403844ffde, sendKeysToElement {id=7bbfb504-5415-47de-a69b-fc033cfeea9f, value=[Ljava.lang.CharSequence;@232024b9}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3805, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (f050e4f0-3105-42ed-8919-91403844ffde)] -> id: fileInput]
+Session ID: f050e4f0-3105-42ed-8919-91403844ffde
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at com.automation.Automation2.fileUploadPopup.fileUploadPopup(fileUploadPopup.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadPopup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.fileUploadPopup@ba2f4ec]" started-at="2024-10-03T23:01:27 IST" name="teardown" finished-at="2024-10-03T23:01:28 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.fileUploadPopup -->
+      <class name="com.automation.Automation2.mouseHover">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.mouseHover@24269709]" started-at="2024-10-03T23:06:16 IST" name="setup" finished-at="2024-10-03T23:07:24 IST" duration-ms="68212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mousehover()[pri:0, instance:com.automation.Automation2.mouseHover@24269709]" started-at="2024-10-03T23:07:24 IST" name="mousehover" finished-at="2024-10-03T23:07:27 IST" duration-ms="2939" status="FAIL">
+          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
+            <message>
+              <![CDATA[Origin element <li> is not displayed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2e11934b-498a-4d4f-b5f0-7fdd2e1b594a, actions {actions=[org.openqa.selenium.interactions.Sequence@7f08caf]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 4134, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 2e11934b-498a-4d4f-b5f0-7fdd2e1b594a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element <li> is not displayed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2e11934b-498a-4d4f-b5f0-7fdd2e1b594a, actions {actions=[org.openqa.selenium.interactions.Sequence@7f08caf]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 4134, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 2e11934b-498a-4d4f-b5f0-7fdd2e1b594a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
+at com.automation.Automation2.mouseHover.mousehover(mouseHover.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mousehover -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.mouseHover@24269709]" started-at="2024-10-03T23:07:27 IST" name="teardown" finished-at="2024-10-03T23:07:28 IST" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.mouseHover -->
+      <class name="com.automation.Automation2.scrollingToElement">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.scrollingToElement@1ce24091]" started-at="2024-10-03T23:02:32 IST" name="setup" finished-at="2024-10-03T23:03:22 IST" duration-ms="49675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scrollingToElement()[pri:0, instance:com.automation.Automation2.scrollingToElement@1ce24091]" started-at="2024-10-03T23:03:22 IST" name="scrollingToElement" finished-at="2024-10-03T23:03:25 IST" duration-ms="3575" status="FAIL">
+          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
+            <message>
+              <![CDATA[Move target (772, 739) is out of bounds of viewport dimensions (1366, 683)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7b21ae87-4fd0-4d2e-801c-513dcf23ced5, actions {actions=[org.openqa.selenium.interactions.Sequence@6ceb7b5e]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3911, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 7b21ae87-4fd0-4d2e-801c-513dcf23ced5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Move target (772, 739) is out of bounds of viewport dimensions (1366, 683)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7b21ae87-4fd0-4d2e-801c-513dcf23ced5, actions {actions=[org.openqa.selenium.interactions.Sequence@6ceb7b5e]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3911, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 7b21ae87-4fd0-4d2e-801c-513dcf23ced5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
+at com.automation.Automation2.scrollingToElement.scrollingToElement(scrollingToElement.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToElement -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.scrollingToElement@1ce24091]" started-at="2024-10-03T23:03:25 IST" name="teardown" finished-at="2024-10-03T23:03:26 IST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.scrollingToElement -->
+      <class name="com.automation.Automation2.dragAndDrop">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.dragAndDrop@26794848]" started-at="2024-10-03T22:59:18 IST" name="setup" finished-at="2024-10-03T22:59:48 IST" duration-ms="29279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dragAndDrop()[pri:0, instance:com.automation.Automation2.dragAndDrop@26794848]" started-at="2024-10-03T22:59:48 IST" name="dragAndDrop" finished-at="2024-10-03T22:59:50 IST" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.dragAndDrop@26794848]" started-at="2024-10-03T22:59:50 IST" name="teardown" finished-at="2024-10-03T22:59:51 IST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.dragAndDrop -->
+      <class name="com.automation.Automation2.toolTipUsingMouseHover">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.toolTipUsingMouseHover@fbd1f6]" started-at="2024-10-03T23:04:58 IST" name="setup" finished-at="2024-10-03T23:06:13 IST" duration-ms="75422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="toolTipUsingMouseHover()[pri:0, instance:com.automation.Automation2.toolTipUsingMouseHover@fbd1f6]" started-at="2024-10-03T23:06:13 IST" name="toolTipUsingMouseHover" finished-at="2024-10-03T23:06:15 IST" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toolTipUsingMouseHover -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.toolTipUsingMouseHover@fbd1f6]" started-at="2024-10-03T23:06:15 IST" name="teardown" finished-at="2024-10-03T23:06:16 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.toolTipUsingMouseHover -->
+      <class name="com.automation.Automation2.slideBar">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.slideBar@7a8c8dcf]" started-at="2024-10-03T23:04:20 IST" name="setup" finished-at="2024-10-03T23:04:54 IST" duration-ms="33860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="slideBar()[pri:0, instance:com.automation.Automation2.slideBar@7a8c8dcf]" started-at="2024-10-03T23:04:54 IST" name="slideBar" finished-at="2024-10-03T23:04:57 IST" duration-ms="3101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slideBar -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.slideBar@7a8c8dcf]" started-at="2024-10-03T23:04:57 IST" name="teardown" finished-at="2024-10-03T23:04:58 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.slideBar -->
+      <class name="com.automation.Automation2.HiddenDivision">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.HiddenDivision@1c1bbc4e]" started-at="2024-10-03T23:01:28 IST" name="setup" finished-at="2024-10-03T23:02:27 IST" duration-ms="58850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HiddenDivision()[pri:0, instance:com.automation.Automation2.HiddenDivision@1c1bbc4e]" started-at="2024-10-03T23:02:27 IST" name="HiddenDivision" finished-at="2024-10-03T23:02:31 IST" duration-ms="4630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HiddenDivision -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.HiddenDivision@1c1bbc4e]" started-at="2024-10-03T23:02:31 IST" name="teardown" finished-at="2024-10-03T23:02:32 IST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.HiddenDivision -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-10-03T23:07:28 IST" name="Firefoxtest" finished-at="2024-10-03T23:11:57 IST" duration-ms="268974">
+      <class name="com.automation.Automation2.HandlingVideo">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.HandlingVideo@1f59a598]" started-at="2024-10-03T23:10:33 IST" name="setup" finished-at="2024-10-03T23:10:54 IST" duration-ms="20784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HandlingVideo()[pri:0, instance:com.automation.Automation2.HandlingVideo@1f59a598]" started-at="2024-10-03T23:10:54 IST" name="HandlingVideo" finished-at="2024-10-03T23:10:59 IST" duration-ms="5476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlingVideo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.HandlingVideo@1f59a598]" started-at="2024-10-03T23:10:59 IST" name="teardown" finished-at="2024-10-03T23:11:00 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.HandlingVideo -->
+      <class name="com.automation.Automation2.dragandDropMultiple">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.dragandDropMultiple@385e9564]" started-at="2024-10-03T23:07:57 IST" name="setup" finished-at="2024-10-03T23:08:15 IST" duration-ms="17908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dragandDropMultiple()[pri:0, instance:com.automation.Automation2.dragandDropMultiple@385e9564]" started-at="2024-10-03T23:08:15 IST" name="dragandDropMultiple" finished-at="2024-10-03T23:08:35 IST" duration-ms="20135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragandDropMultiple -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.dragandDropMultiple@385e9564]" started-at="2024-10-03T23:08:35 IST" name="teardown" finished-at="2024-10-03T23:08:36 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.dragandDropMultiple -->
+      <class name="com.automation.Automation2.fileUploadPopup">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.fileUploadPopup@5b94b04d]" started-at="2024-10-03T23:08:36 IST" name="setup" finished-at="2024-10-03T23:08:52 IST" duration-ms="16444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fileUploadPopup()[pri:0, instance:com.automation.Automation2.fileUploadPopup@5b94b04d]" started-at="2024-10-03T23:08:52 IST" name="fileUploadPopup" finished-at="2024-10-03T23:08:57 IST" duration-ms="4561" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument: File not found : /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx
+  (Session info: chrome=129.0.6668.89)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09aaa3ffd51c2f65f3827e603ea3e093, sendKeysToElement {id=f.09BE50698391C0A978DED098C53D131B.d.04E1E06E179E7094C634941CD4261774.e.74, value=[Ljava.lang.CharSequence;@15d42ccb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.89, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: /var/folders/hz/1tg112kn46q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54373/devtoo..., se:cdpVersion: 129.0.6668.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (09aaa3ffd51c2f65f3827e603ea3e093)] -> id: fileInput]
+Session ID: 09aaa3ffd51c2f65f3827e603ea3e093]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx
+  (Session info: chrome=129.0.6668.89)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [09aaa3ffd51c2f65f3827e603ea3e093, sendKeysToElement {id=f.09BE50698391C0A978DED098C53D131B.d.04E1E06E179E7094C634941CD4261774.e.74, value=[Ljava.lang.CharSequence;@15d42ccb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.89, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: /var/folders/hz/1tg112kn46q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54373/devtoo..., se:cdpVersion: 129.0.6668.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (09aaa3ffd51c2f65f3827e603ea3e093)] -> id: fileInput]
+Session ID: 09aaa3ffd51c2f65f3827e603ea3e093
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at com.automation.Automation2.fileUploadPopup.fileUploadPopup(fileUploadPopup.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadPopup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.fileUploadPopup@5b94b04d]" started-at="2024-10-03T23:08:57 IST" name="teardown" finished-at="2024-10-03T23:08:57 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.fileUploadPopup -->
+      <class name="com.automation.Automation2.mouseHover">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.mouseHover@192c3f1e]" started-at="2024-10-03T23:11:29 IST" name="setup" finished-at="2024-10-03T23:11:44 IST" duration-ms="15830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mousehover()[pri:0, instance:com.automation.Automation2.mouseHover@192c3f1e]" started-at="2024-10-03T23:11:44 IST" name="mousehover" finished-at="2024-10-03T23:11:57 IST" duration-ms="12330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mousehover -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.mouseHover@192c3f1e]" started-at="2024-10-03T23:11:57 IST" name="teardown" finished-at="2024-10-03T23:11:57 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.mouseHover -->
+      <class name="com.automation.Automation2.scrollingToElement">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.scrollingToElement@7ee8290b]" started-at="2024-10-03T23:10:02 IST" name="setup" finished-at="2024-10-03T23:10:18 IST" duration-ms="16179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scrollingToElement()[pri:0, instance:com.automation.Automation2.scrollingToElement@7ee8290b]" started-at="2024-10-03T23:10:18 IST" name="scrollingToElement" finished-at="2024-10-03T23:10:33 IST" duration-ms="15061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollingToElement -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.scrollingToElement@7ee8290b]" started-at="2024-10-03T23:10:33 IST" name="teardown" finished-at="2024-10-03T23:10:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.scrollingToElement -->
+      <class name="com.automation.Automation2.dragAndDrop">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.dragAndDrop@291caca8]" started-at="2024-10-03T23:07:28 IST" name="setup" finished-at="2024-10-03T23:07:52 IST" duration-ms="24321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="dragAndDrop()[pri:0, instance:com.automation.Automation2.dragAndDrop@291caca8]" started-at="2024-10-03T23:07:52 IST" name="dragAndDrop" finished-at="2024-10-03T23:07:57 IST" duration-ms="4894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.dragAndDrop@291caca8]" started-at="2024-10-03T23:07:57 IST" name="teardown" finished-at="2024-10-03T23:07:57 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.dragAndDrop -->
+      <class name="com.automation.Automation2.slideBar">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.slideBar@1e178745]" started-at="2024-10-03T23:11:00 IST" name="setup" finished-at="2024-10-03T23:11:23 IST" duration-ms="23232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="slideBar()[pri:0, instance:com.automation.Automation2.slideBar@1e178745]" started-at="2024-10-03T23:11:23 IST" name="slideBar" finished-at="2024-10-03T23:11:29 IST" duration-ms="5626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slideBar -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.slideBar@1e178745]" started-at="2024-10-03T23:11:29 IST" name="teardown" finished-at="2024-10-03T23:11:29 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.slideBar -->
+      <class name="com.automation.Automation2.toolTipUsingMouseHover">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.toolTipUsingMouseHover@f79e]" started-at="2024-10-03T23:09:25 IST" name="setup" finished-at="2024-10-03T23:09:59 IST" duration-ms="33924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="toolTipUsingMouseHover()[pri:0, instance:com.automation.Automation2.toolTipUsingMouseHover@f79e]" started-at="2024-10-03T23:09:59 IST" name="toolTipUsingMouseHover" finished-at="2024-10-03T23:10:02 IST" duration-ms="3316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toolTipUsingMouseHover -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.toolTipUsingMouseHover@f79e]" started-at="2024-10-03T23:10:02 IST" name="teardown" finished-at="2024-10-03T23:10:02 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.toolTipUsingMouseHover -->
+      <class name="com.automation.Automation2.HiddenDivision">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.automation.Automation2.HiddenDivision@8c3b9d]" started-at="2024-10-03T23:08:57 IST" name="setup" finished-at="2024-10-03T23:09:17 IST" duration-ms="20570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HiddenDivision()[pri:0, instance:com.automation.Automation2.HiddenDivision@8c3b9d]" started-at="2024-10-03T23:09:17 IST" name="HiddenDivision" finished-at="2024-10-03T23:09:24 IST" duration-ms="7264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HiddenDivision -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automation.Automation2.HiddenDivision@8c3b9d]" started-at="2024-10-03T23:09:24 IST" name="teardown" finished-at="2024-10-03T23:09:25 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automation.Automation2.HiddenDivision -->
+    </test> <!-- Firefoxtest -->
+  </suite> <!-- Suite -->
+</testng-results>
