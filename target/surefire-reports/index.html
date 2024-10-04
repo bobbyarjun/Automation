@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 4 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.fileUploadPopup" class="method navigator-link" hash-for-method="fileUploadPopup">fileUploadPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.fileUploadPopup" class="method navigator-link" hash-for-method="fileUploadPopup">fileUploadPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.mouseHover" class="method navigator-link" hash-for-method="mousehover">mousehover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.scrollingToElement" class="method navigator-link" hash-for-method="scrollingToElement">scrollingToElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.HandlingVideo" class="method navigator-link" hash-for-method="HandlingVideo">HandlingVideo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.HandlingVideo" class="method navigator-link" hash-for-method="HandlingVideo">HandlingVideo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.HiddenDivision" class="method navigator-link" hash-for-method="HiddenDivision">HiddenDivision</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.HiddenDivision" class="method navigator-link" hash-for-method="HiddenDivision">HiddenDivision</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.dragAndDrop" class="method navigator-link" hash-for-method="dragAndDrop">dragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.dragAndDrop" class="method navigator-link" hash-for-method="dragAndDrop">dragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.dragandDropMultiple" class="method navigator-link" hash-for-method="dragandDropMultiple">dragandDropMultiple</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.dragandDropMultiple" class="method navigator-link" hash-for-method="dragandDropMultiple">dragandDropMultiple</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.mouseHover" class="method navigator-link" hash-for-method="mousehover">mousehover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.scrollingToElement" class="method navigator-link" hash-for-method="scrollingToElement">scrollingToElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.slideBar" class="method navigator-link" hash-for-method="slideBar">slideBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.slideBar" class="method navigator-link" hash-for-method="slideBar">slideBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.toolTipUsingMouseHover" class="method navigator-link" hash-for-method="toolTipUsingMouseHover">toolTipUsingMouseHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.Automation2.toolTipUsingMouseHover" class="method navigator-link" hash-for-method="toolTipUsingMouseHover">toolTipUsingMouseHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.Automation2.fileUploadPopup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileUploadPopup">
+                  </a> <!-- fileUploadPopup -->
+                  <span class="method-name">fileUploadPopup</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: File not found: /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2480aef6-7228-470b-abb3-f268c7ea53fd, sendKeysToElement {value=[Ljava.lang.CharSequence;@2c4ca0f9, id=9bc7e5a1-668a-4213-8aee-aab4a90b0fbc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3752, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (2480aef6-7228-470b-abb3-f268c7ea53fd)] -&gt; id: fileInput]
+Session ID: 2480aef6-7228-470b-abb3-f268c7ea53fd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.automation.Automation2.fileUploadPopup.fileUploadPopup(fileUploadPopup.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fileUploadPopup">
+                  </a> <!-- fileUploadPopup -->
+                  <span class="method-name">fileUploadPopup</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx
+  (Session info: chrome=129.0.6668.90)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7cb1c9ca6bda5dd356ce3376b5bd9e2b, sendKeysToElement {value=[Ljava.lang.CharSequence;@d277579, id=f.11003252DB8786711F5E4A27CE929FE1.d.D55FBFAD5ECACE1C585DDEF518311643.e.79}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: /var/folders/hz/1tg112kn46q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51207/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (7cb1c9ca6bda5dd356ce3376b5bd9e2b)] -&gt; id: fileInput]
+Session ID: 7cb1c9ca6bda5dd356ce3376b5bd9e2b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at com.automation.Automation2.fileUploadPopup.fileUploadPopup(fileUploadPopup.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.Automation2.mouseHover</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mousehover">
+                  </a> <!-- mousehover -->
+                  <span class="method-name">mousehover</span>
+                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element &lt;li&gt; is not displayed
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d3fe841c-3ab0-4561-9911-b7a3876dbfc0, actions {actions=[org.openqa.selenium.interactions.Sequence@5e8c34a0]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 4045, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: d3fe841c-3ab0-4561-9911-b7a3876dbfc0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
+	at com.automation.Automation2.mouseHover.mousehover(mouseHover.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.Automation2.scrollingToElement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollingToElement">
+                  </a> <!-- scrollingToElement -->
+                  <span class="method-name">scrollingToElement</span>
+                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Move target (772, 739) is out of bounds of viewport dimensions (1366, 683)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a919daf8-9883-4d31-9868-11bf0c7dca6f, actions {actions=[org.openqa.selenium.interactions.Sequence@4beddc56]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3856, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: a919daf8-9883-4d31-9868-11bf0c7dca6f
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:568)
+	at com.automation.Automation2.scrollingToElement.scrollingToElement(scrollingToElement.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.Automation2.HandlingVideo</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HandlingVideo">
+                  </a> <!-- HandlingVideo -->
+                  <span class="method-name">HandlingVideo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HandlingVideo">
+                  </a> <!-- HandlingVideo -->
+                  <span class="method-name">HandlingVideo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.Automation2.dragAndDrop</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAndDrop">
+                  </a> <!-- dragAndDrop -->
+                  <span class="method-name">dragAndDrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAndDrop">
+                  </a> <!-- dragAndDrop -->
+                  <span class="method-name">dragAndDrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.Automation2.toolTipUsingMouseHover</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toolTipUsingMouseHover">
+                  </a> <!-- toolTipUsingMouseHover -->
+                  <span class="method-name">toolTipUsingMouseHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toolTipUsingMouseHover">
+                  </a> <!-- toolTipUsingMouseHover -->
+                  <span class="method-name">toolTipUsingMouseHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.Automation2.dragandDropMultiple</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragandDropMultiple">
+                  </a> <!-- dragandDropMultiple -->
+                  <span class="method-name">dragandDropMultiple</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragandDropMultiple">
+                  </a> <!-- dragandDropMultiple -->
+                  <span class="method-name">dragandDropMultiple</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.Automation2.HiddenDivision</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="HiddenDivision">
+                  </a> <!-- HiddenDivision -->
+                  <span class="method-name">HiddenDivision</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HiddenDivision">
+                  </a> <!-- HiddenDivision -->
+                  <span class="method-name">HiddenDivision</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.Automation2.slideBar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="slideBar">
+                  </a> <!-- slideBar -->
+                  <span class="method-name">slideBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="slideBar">
+                  </a> <!-- slideBar -->
+                  <span class="method-name">slideBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.Automation2.scrollingToElement</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollingToElement">
+                  </a> <!-- scrollingToElement -->
+                  <span class="method-name">scrollingToElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.Automation2.mouseHover</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mousehover">
+                  </a> <!-- mousehover -->
+                  <span class="method-name">mousehover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/testvagrant/eclipse-workspace/Automation2/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;11&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.Automation2.dragAndDrop&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.dragandDropMultiple&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.fileUploadPopup&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.HiddenDivision&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.keyBoardActions&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.toolTipUsingMouseHover&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.scrollingToElement&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.HandlingVideo&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.slideBar&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.toolTipUsingMouseHover&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.mouseHover&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;11&quot; name=&quot;Firefoxtest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.Automation2.dragAndDrop&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.dragandDropMultiple&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.fileUploadPopup&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.HiddenDivision&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.keyBoardActions&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.toolTipUsingMouseHover&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.scrollingToElement&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.HandlingVideo&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.slideBar&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.toolTipUsingMouseHover&quot;/&gt;
+      &lt;class name=&quot;com.automation.Automation2.mouseHover&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefoxtest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (11 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefoxtest (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'dragandDropMultiple')
+data.setCell(0, 2, 'com.automation.Automation2.dragandDropMultiple')
+data.setCell(0, 3, 20910);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dragandDropMultiple')
+data.setCell(1, 2, 'com.automation.Automation2.dragandDropMultiple')
+data.setCell(1, 3, 20144);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'scrollingToElement')
+data.setCell(2, 2, 'com.automation.Automation2.scrollingToElement')
+data.setCell(2, 3, 12417);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'mousehover')
+data.setCell(3, 2, 'com.automation.Automation2.mouseHover')
+data.setCell(3, 3, 11722);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'HandlingVideo')
+data.setCell(4, 2, 'com.automation.Automation2.HandlingVideo')
+data.setCell(4, 3, 5958);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'HandlingVideo')
+data.setCell(5, 2, 'com.automation.Automation2.HandlingVideo')
+data.setCell(5, 3, 5118);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'mousehover')
+data.setCell(6, 2, 'com.automation.Automation2.mouseHover')
+data.setCell(6, 3, 4727);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'fileUploadPopup')
+data.setCell(7, 2, 'com.automation.Automation2.fileUploadPopup')
+data.setCell(7, 3, 4458);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'fileUploadPopup')
+data.setCell(8, 2, 'com.automation.Automation2.fileUploadPopup')
+data.setCell(8, 3, 4273);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'HiddenDivision')
+data.setCell(9, 2, 'com.automation.Automation2.HiddenDivision')
+data.setCell(9, 3, 4268);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'slideBar')
+data.setCell(10, 2, 'com.automation.Automation2.slideBar')
+data.setCell(10, 3, 4255);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'scrollingToElement')
+data.setCell(11, 2, 'com.automation.Automation2.scrollingToElement')
+data.setCell(11, 3, 4044);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'slideBar')
+data.setCell(12, 2, 'com.automation.Automation2.slideBar')
+data.setCell(12, 3, 3955);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'dragAndDrop')
+data.setCell(13, 2, 'com.automation.Automation2.dragAndDrop')
+data.setCell(13, 3, 3876);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'dragAndDrop')
+data.setCell(14, 2, 'com.automation.Automation2.dragAndDrop')
+data.setCell(14, 3, 3662);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'toolTipUsingMouseHover')
+data.setCell(15, 2, 'com.automation.Automation2.toolTipUsingMouseHover')
+data.setCell(15, 3, 3401);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'HiddenDivision')
+data.setCell(16, 2, 'com.automation.Automation2.HiddenDivision')
+data.setCell(16, 3, 2808);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'toolTipUsingMouseHover')
+data.setCell(17, 2, 'com.automation.Automation2.toolTipUsingMouseHover')
+data.setCell(17, 3, 2125);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.dragAndDrop</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">dragAndDrop</span>
+                <span class="method-start">14517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">18184 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.dragandDropMultiple</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">19177 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">dragandDropMultiple</span>
+                <span class="method-start">30293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">51204 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.fileUploadPopup</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">52376 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fileUploadPopup</span>
+                <span class="method-start">67640 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">72110 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.HiddenDivision</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">72801 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">HiddenDivision</span>
+                <span class="method-start">81677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">84486 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.scrollingToElement</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">85342 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">scrollingToElement</span>
+                <span class="method-start">94977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">99022 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.HandlingVideo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">99725 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">HandlingVideo</span>
+                <span class="method-start">108891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">114010 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.slideBar</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">114719 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">slideBar</span>
+                <span class="method-start">125036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">128991 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.toolTipUsingMouseHover</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">129646 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">toolTipUsingMouseHover</span>
+                <span class="method-start">142568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">144693 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.mouseHover</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">145443 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mousehover</span>
+                <span class="method-start">159539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">164267 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.dragAndDrop</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">165025 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">dragAndDrop</span>
+                <span class="method-start">183871 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">187747 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.dragandDropMultiple</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">187905 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">dragandDropMultiple</span>
+                <span class="method-start">192423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">212568 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.fileUploadPopup</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">212803 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fileUploadPopup</span>
+                <span class="method-start">217382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">221656 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.HiddenDivision</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">221883 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">HiddenDivision</span>
+                <span class="method-start">226280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">230549 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.toolTipUsingMouseHover</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">230782 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">toolTipUsingMouseHover</span>
+                <span class="method-start">235259 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">238660 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.scrollingToElement</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">238822 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">scrollingToElement</span>
+                <span class="method-start">244470 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.HandlingVideo</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">256888 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.scrollingToElement</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">256888 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.HandlingVideo</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">HandlingVideo</span>
+                <span class="method-start">262372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">268331 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.slideBar</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">268501 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">slideBar</span>
+                <span class="method-start">278304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">282560 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.Automation2.mouseHover</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">282854 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">mousehover</span>
+                <span class="method-start">288149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">299871 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

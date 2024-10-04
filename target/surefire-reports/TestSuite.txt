@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 300.891 s <<< FAILURE! - in TestSuite
+fileUploadPopup(com.automation.Automation2.fileUploadPopup)  Time elapsed: 4.476 s  <<< FAILURE!
+org.openqa.selenium.InvalidArgumentException: 
+File not found: /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2480aef6-7228-470b-abb3-f268c7ea53fd, sendKeysToElement {value=[Ljava.lang.CharSequence;@2c4ca0f9, id=9bc7e5a1-668a-4213-8aee-aab4a90b0fbc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3752, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (2480aef6-7228-470b-abb3-f268c7ea53fd)] -> id: fileInput]
+Session ID: 2480aef6-7228-470b-abb3-f268c7ea53fd
+	at com.automation.Automation2.fileUploadPopup.fileUploadPopup(fileUploadPopup.java:26)
+
+scrollingToElement(com.automation.Automation2.scrollingToElement)  Time elapsed: 4.045 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+Move target (772, 739) is out of bounds of viewport dimensions (1366, 683)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a919daf8-9883-4d31-9868-11bf0c7dca6f, actions {actions=[org.openqa.selenium.interactions.Sequence@4beddc56]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3856, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: a919daf8-9883-4d31-9868-11bf0c7dca6f
+	at com.automation.Automation2.scrollingToElement.scrollingToElement(scrollingToElement.java:32)
+
+mousehover(com.automation.Automation2.mouseHover)  Time elapsed: 4.728 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+Origin element <li> is not displayed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d3fe841c-3ab0-4561-9911-b7a3876dbfc0, actions {actions=[org.openqa.selenium.interactions.Sequence@5e8c34a0]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 4045, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: d3fe841c-3ab0-4561-9911-b7a3876dbfc0
+	at com.automation.Automation2.mouseHover.mousehover(mouseHover.java:29)
+
+fileUploadPopup(com.automation.Automation2.fileUploadPopup)  Time elapsed: 4.273 s  <<< FAILURE!
+org.openqa.selenium.InvalidArgumentException: 
+invalid argument: File not found : /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7cb1c9ca6bda5dd356ce3376b5bd9e2b, sendKeysToElement {value=[Ljava.lang.CharSequence;@d277579, id=f.11003252DB8786711F5E4A27CE929FE1.d.D55FBFAD5ECACE1C585DDEF518311643.e.79}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: /var/folders/hz/1tg112kn46q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51207/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (7cb1c9ca6bda5dd356ce3376b5bd9e2b)] -> id: fileInput]
+Session ID: 7cb1c9ca6bda5dd356ce3376b5bd9e2b
+	at com.automation.Automation2.fileUploadPopup.fileUploadPopup(fileUploadPopup.java:26)
+

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="300.891" tests="18" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/testvagrant/eclipse-workspace/Automation2/target/test-classes:/Users/testvagrant/eclipse-workspace/Automation2/target/classes:/Users/testvagrant/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/testvagrant/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/testvagrant/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/testvagrant/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-java/4.20.0/selenium-java-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-api/4.20.0/selenium-api-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.20.0/selenium-chrome-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.20.0/selenium-chromium-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-json/4.20.0/selenium-json-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.20.0/selenium-manager-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.20.0/selenium-devtools-v122-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.20.0/selenium-devtools-v123-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.20.0/selenium-devtools-v124-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.20.0/selenium-devtools-v85-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.20.0/selenium-edge-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.20.0/selenium-firefox-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-http/4.20.0/selenium-http-4.20.0.jar:/Users/testvagrant/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.20.0/selenium-ie-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.20.0/selenium-remote-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/testvagrant/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/testvagrant/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/testvagrant/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/testvagrant/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/testvagrant/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/testvagrant/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-api/1.37.0/opentelemetry-api-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-context/1.37.0/opentelemetry-context-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.37.0/opentelemetry-exporter-logging-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.37.0/opentelemetry-sdk-common-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.37.0/opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.37.0/opentelemetry-sdk-extension-autoconfigure-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.37.0-alpha/opentelemetry-api-incubator-1.37.0-alpha.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.37.0/opentelemetry-sdk-trace-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.37.0/opentelemetry-sdk-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.37.0/opentelemetry-sdk-metrics-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.37.0/opentelemetry-sdk-logs-1.37.0.jar:/Users/testvagrant/.m2/repository/net/bytebuddy/byte-buddy/1.14.14/byte-buddy-1.14.14.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-os/4.20.0/selenium-os-4.20.0.jar:/Users/testvagrant/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.20.0/selenium-safari-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-support/4.20.0/selenium-support-4.20.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk@21/21.0.4/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/testvagrant/eclipse-workspace/Automation2/target/surefire/surefirebooter12225978632094584658.jar /Users/testvagrant/eclipse-workspace/Automation2/target/surefire 2024-10-04T10-44-36_624-jvmRun1 surefire4806377980989588381tmp surefire_015861587489149550543tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/testvagrant/eclipse-workspace/Automation2/target/test-classes:/Users/testvagrant/eclipse-workspace/Automation2/target/classes:/Users/testvagrant/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/testvagrant/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/testvagrant/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/testvagrant/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-java/4.20.0/selenium-java-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-api/4.20.0/selenium-api-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.20.0/selenium-chrome-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.20.0/selenium-chromium-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-json/4.20.0/selenium-json-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.20.0/selenium-manager-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.20.0/selenium-devtools-v122-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.20.0/selenium-devtools-v123-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.20.0/selenium-devtools-v124-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.20.0/selenium-devtools-v85-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.20.0/selenium-edge-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.20.0/selenium-firefox-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-http/4.20.0/selenium-http-4.20.0.jar:/Users/testvagrant/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.20.0/selenium-ie-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.20.0/selenium-remote-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/testvagrant/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/testvagrant/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/testvagrant/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/testvagrant/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/testvagrant/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/testvagrant/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-api/1.37.0/opentelemetry-api-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-context/1.37.0/opentelemetry-context-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.37.0/opentelemetry-exporter-logging-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.37.0/opentelemetry-sdk-common-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.37.0/opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.37.0/opentelemetry-sdk-extension-autoconfigure-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.37.0-alpha/opentelemetry-api-incubator-1.37.0-alpha.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.37.0/opentelemetry-sdk-trace-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.37.0/opentelemetry-sdk-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.37.0/opentelemetry-sdk-metrics-1.37.0.jar:/Users/testvagrant/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.37.0/opentelemetry-sdk-logs-1.37.0.jar:/Users/testvagrant/.m2/repository/net/bytebuddy/byte-buddy/1.14.14/byte-buddy-1.14.14.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-os/4.20.0/selenium-os-4.20.0.jar:/Users/testvagrant/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.20.0/selenium-safari-driver-4.20.0.jar:/Users/testvagrant/.m2/repository/org/seleniumhq/selenium/selenium-support/4.20.0/selenium-support-4.20.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/testvagrant"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk@21/21.0.4/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/testvagrant/eclipse-workspace/Automation2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/testvagrant/eclipse-workspace/Automation2/target/surefire/surefirebooter12225978632094584658.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.4"/>
+    <property name="user.name" value="testvagrant"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/testvagrant/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/hz/1tg112kn46q30ccj24_szny00000gn/T/"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="/Users/testvagrant/eclipse-workspace/Automation2"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/testvagrant/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.4"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="dragAndDrop" classname="com.automation.Automation2.dragAndDrop" time="3.665"/>
+  <testcase name="dragAndDrop" classname="com.automation.Automation2.dragAndDrop" time="3.876"/>
+  <testcase name="dragandDropMultiple" classname="com.automation.Automation2.dragandDropMultiple" time="20.91"/>
+  <testcase name="dragandDropMultiple" classname="com.automation.Automation2.dragandDropMultiple" time="20.145"/>
+  <testcase name="fileUploadPopup" classname="com.automation.Automation2.fileUploadPopup" time="4.476">
+    <failure message="File not found: /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx&#10;Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [2480aef6-7228-470b-abb3-f268c7ea53fd, sendKeysToElement {value=[Ljava.lang.CharSequence;@2c4ca0f9, id=9bc7e5a1-668a-4213-8aee-aab4a90b0fbc}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3752, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}&#10;Element: [[FirefoxDriver: firefox on mac (2480aef6-7228-470b-abb3-f268c7ea53fd)] -&gt; id: fileInput]&#10;Session ID: 2480aef6-7228-470b-abb3-f268c7ea53fd" type="org.openqa.selenium.InvalidArgumentException">org.openqa.selenium.InvalidArgumentException: 
+File not found: /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2480aef6-7228-470b-abb3-f268c7ea53fd, sendKeysToElement {value=[Ljava.lang.CharSequence;@2c4ca0f9, id=9bc7e5a1-668a-4213-8aee-aab4a90b0fbc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3752, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (2480aef6-7228-470b-abb3-f268c7ea53fd)] -> id: fileInput]
+Session ID: 2480aef6-7228-470b-abb3-f268c7ea53fd
+	at com.automation.Automation2.fileUploadPopup.fileUploadPopup(fileUploadPopup.java:26)
+</failure>
+    <system-out><![CDATA[Executing on FireFox
+Browser setup by thread:Thread[#1,main,5,main]FirefoxDriver: firefox on mac (2480aef6-7228-470b-abb3-f268c7ea53fd)
+]]></system-out>
+  </testcase>
+  <testcase name="fileUploadPopup" classname="com.automation.Automation2.fileUploadPopup" time="4.273">
+    <failure message="invalid argument: File not found : /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx&#10;  (Session info: chrome=129.0.6668.90)&#10;Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7cb1c9ca6bda5dd356ce3376b5bd9e2b, sendKeysToElement {value=[Ljava.lang.CharSequence;@d277579, id=f.11003252DB8786711F5E4A27CE929FE1.d.D55FBFAD5ECACE1C585DDEF518311643.e.79}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: /var/folders/hz/1tg112kn46q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51207/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on mac (7cb1c9ca6bda5dd356ce3376b5bd9e2b)] -&gt; id: fileInput]&#10;Session ID: 7cb1c9ca6bda5dd356ce3376b5bd9e2b" type="org.openqa.selenium.InvalidArgumentException">org.openqa.selenium.InvalidArgumentException: 
+invalid argument: File not found : /Users/testvagrant/eclipse-workspace/Automation2/./Data/Arjun R Resume.docx
+  (Session info: chrome=129.0.6668.90)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7cb1c9ca6bda5dd356ce3376b5bd9e2b, sendKeysToElement {value=[Ljava.lang.CharSequence;@d277579, id=f.11003252DB8786711F5E4A27CE929FE1.d.D55FBFAD5ECACE1C585DDEF518311643.e.79}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.89 (951c0b97221f..., userDataDir: /var/folders/hz/1tg112kn46q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51207/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (7cb1c9ca6bda5dd356ce3376b5bd9e2b)] -> id: fileInput]
+Session ID: 7cb1c9ca6bda5dd356ce3376b5bd9e2b
+	at com.automation.Automation2.fileUploadPopup.fileUploadPopup(fileUploadPopup.java:26)
+</failure>
+    <system-out><![CDATA[ Executing on CHROME
+Browser setup by thread:Thread[#1,main,5,main]ChromeDriver: chrome on mac (7cb1c9ca6bda5dd356ce3376b5bd9e2b)
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2024 10:48:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 129
+Oct 04, 2024 10:48:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 129.0.6668.90. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="HiddenDivision" classname="com.automation.Automation2.HiddenDivision" time="2.809"/>
+  <testcase name="HiddenDivision" classname="com.automation.Automation2.HiddenDivision" time="4.268"/>
+  <testcase name="scrollingToElement" classname="com.automation.Automation2.scrollingToElement" time="4.045">
+    <failure message="Move target (772, 739) is out of bounds of viewport dimensions (1366, 683)&#10;Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [a919daf8-9883-4d31-9868-11bf0c7dca6f, actions {actions=[org.openqa.selenium.interactions.Sequence@4beddc56]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3856, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}&#10;Session ID: a919daf8-9883-4d31-9868-11bf0c7dca6f" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+Move target (772, 739) is out of bounds of viewport dimensions (1366, 683)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a919daf8-9883-4d31-9868-11bf0c7dca6f, actions {actions=[org.openqa.selenium.interactions.Sequence@4beddc56]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3856, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: a919daf8-9883-4d31-9868-11bf0c7dca6f
+	at com.automation.Automation2.scrollingToElement.scrollingToElement(scrollingToElement.java:32)
+</failure>
+    <system-out><![CDATA[Executing on FireFox
+Browser setup by thread:Thread[#1,main,5,main]FirefoxDriver: firefox on mac (a919daf8-9883-4d31-9868-11bf0c7dca6f)
+8
+Discover More
+mobiles
+shoes
+shoes for men
+shoes
+shirt for men
+sneakers for men
+slippers for men
+SAMSUNG Galaxy A14 5G (Light Green, 128 GB)-->₹10,999
+SAMSUNG Galaxy A14 5G (Light Green, 128 GB)-->₹20,999
+]]></system-out>
+  </testcase>
+  <testcase name="scrollingToElement" classname="com.automation.Automation2.scrollingToElement" time="12.418"/>
+  <testcase name="HandlingVideo" classname="com.automation.Automation2.HandlingVideo" time="5.118"/>
+  <testcase name="HandlingVideo" classname="com.automation.Automation2.HandlingVideo" time="5.959"/>
+  <testcase name="slideBar" classname="com.automation.Automation2.slideBar" time="3.954"/>
+  <testcase name="slideBar" classname="com.automation.Automation2.slideBar" time="4.256"/>
+  <testcase name="toolTipUsingMouseHover" classname="com.automation.Automation2.toolTipUsingMouseHover" time="2.124"/>
+  <testcase name="toolTipUsingMouseHover" classname="com.automation.Automation2.toolTipUsingMouseHover" time="3.401"/>
+  <testcase name="mousehover" classname="com.automation.Automation2.mouseHover" time="4.728">
+    <failure message="Origin element &lt;li&gt; is not displayed&#10;Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;15.0&apos;, java.version: &apos;21.0.4&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [d3fe841c-3ab0-4561-9911-b7a3876dbfc0, actions {actions=[org.openqa.selenium.interactions.Sequence@5e8c34a0]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 4045, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}&#10;Session ID: d3fe841c-3ab0-4561-9911-b7a3876dbfc0" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException"><![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+Origin element <li> is not displayed
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d3fe841c-3ab0-4561-9911-b7a3876dbfc0, actions {actions=[org.openqa.selenium.interactions.Sequence@5e8c34a0]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 4045, moz:profile: /var/folders/hz/1tg112kn46q..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: d3fe841c-3ab0-4561-9911-b7a3876dbfc0
+	at com.automation.Automation2.mouseHover.mousehover(mouseHover.java:29)
+]]></failure>
+    <system-out><![CDATA[Executing on FireFox
+Browser setup by thread:Thread[#1,main,5,main]FirefoxDriver: firefox on mac (d3fe841c-3ab0-4561-9911-b7a3876dbfc0)
+]]></system-out>
+  </testcase>
+  <testcase name="mousehover" classname="com.automation.Automation2.mouseHover" time="11.721"/>
+</testsuite>
