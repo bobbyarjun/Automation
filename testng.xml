@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="11" name="FirefoxTest" >
+  <parameter name="browser" value="firefox"/>
+   <classes>
+      <class name="com.automation.Automation2.dragAndDrop"></class>
+      <class name="com.automation.Automation2.dragandDropMultiple"></class>
+      <class name="com.automation.Automation2.fileUploadPopup"></class>
+      <class name="com.automation.Automation2.HiddenDivision"></class>
+      <class name="com.automation.Automation2.keyBoardActions"></class>
+      <class name="com.automation.Automation2.toolTipUsingMouseHover"></class>
+      <class name="com.automation.Automation2.scrollingToElement"></class>	
+      <class name="com.automation.Automation2.HandlingVideo"/>
+      <class name="com.automation.Automation2.slideBar"/>
+      <class name="com.automation.Automation2.toolTipUsingMouseHover"/>
+      <class name="com.automation.Automation2.mouseHover"/>
+    </classes>
+  </test>
+    <test thread-count="11" name="ChromeTest">
+   <parameter name="browser" value="chrome"/>
+   <classes>
+      <class name="com.automation.Automation2.dragAndDrop"></class>
+      <class name="com.automation.Automation2.dragandDropMultiple"></class>
+      <class name="com.automation.Automation2.fileUploadPopup"></class>
+      <class name="com.automation.Automation2.HiddenDivision"></class>
+      <class name="com.automation.Automation2.keyBoardActions"></class>
+      <class name="com.automation.Automation2.toolTipUsingMouseHover"></class>
+      <class name="com.automation.Automation2.scrollingToElement"></class>	
+      <class name="com.automation.Automation2.HandlingVideo"/>
+      <class name="com.automation.Automation2.slideBar"/>
+      <class name="com.automation.Automation2.toolTipUsingMouseHover"/>
+      <class name="com.automation.Automation2.mouseHover"/>
+     </classes><!-- Test -->
+  </test>
+</suite> <!-- Suite -->
