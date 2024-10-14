@@ -5,6 +5,7 @@ com/automation/Automation2/printAllAutoSuggestions.class
 com/automation/Automation2/HandlingstaleElements.class
 com/automation/Automation2/handlingFrames.class
 com/automation/Automation2/mouseHoverRatings.class
+com/automation/Automation2/PortUtils.class
 com/automation/Automation2/fileUploadPopup.class
 com/automation/Automation2/PlayOrPauseAudio.class
 com/automation/Automation2/dragAndDrop.class

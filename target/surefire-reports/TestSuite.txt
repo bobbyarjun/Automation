@@ -1,130 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 11, Errors: 0, Skipped: 2, Time elapsed: 193.759 s <<< FAILURE! - in TestSuite
-HiddenDivision(com.automation.Automation2.HiddenDivision)  Time elapsed: 0.164 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: (//div[.='Explore more'])[1]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 145.141 s <<< FAILURE! - in TestSuite
+mousehover(com.automation.Automation2.mouseHover)  Time elapsed: 7.587 s  <<< FAILURE!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+Origin element <li> is not displayed
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f254b30-797d-4698-aab5-484010edecb4, findElement {value=(//div[.='Explore more'])[1], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 1329, moz:profile: /var/folders/6z/fn3m8_lx681..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 6f254b30-797d-4698-aab5-484010edecb4
-	at com.automation.Automation2.HiddenDivision.HiddenDivision(HiddenDivision.java:18)
-
-scrollingToElement(com.automation.Automation2.scrollingToElement)  Time elapsed: 5.702 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //input[@placeholder="Search for Products, Brands and More"]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f254b30-797d-4698-aab5-484010edecb4, findElement {value=//input[@placeholder="Search for Products, Brands and More"], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 1329, moz:profile: /var/folders/6z/fn3m8_lx681..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 6f254b30-797d-4698-aab5-484010edecb4
-	at com.automation.Automation2.scrollingToElement.scrollingToElement(scrollingToElement.java:19)
-
-dragAndDrop(com.automation.Automation2.dragAndDrop)  Time elapsed: 7.081 s  <<< FAILURE!
-org.openqa.selenium.NoSuchSessionException: 
-Tried to run command without establishing a connection
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f254b30-797d-4698-aab5-484010edecb4, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 1329, moz:profile: /var/folders/6z/fn3m8_lx681..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Session ID: 6f254b30-797d-4698-aab5-484010edecb4
-	at com.automation.Automation2.dragAndDrop.dragAndDrop(dragAndDrop.java:18)
-
-teardown(com.automation.Automation2.scrollingToElement)  Time elapsed: 7.088 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-Timed out waiting for driver server to stop.
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f254b30-797d-4698-aab5-484010edecb4, quit {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 1329, moz:profile: /var/folders/6z/fn3m8_lx681..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-
-setup(com.automation.Automation2.slideBar)  Time elapsed: 7.094 s  <<< FAILURE!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Error communicating with the remote browser. It may have died.
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f254b30-797d-4698-aab5-484010edecb4, maximizeCurrentWindow []]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 1329, moz:profile: /var/folders/6z/fn3m8_lx681..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@5fda3943 rejected from java.util.concurrent.ThreadPoolExecutor@f823394[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 162]
-
-HandlingVideo(com.automation.Automation2.HandlingVideo)  Time elapsed: 7.094 s  <<< FAILURE!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Error communicating with the remote browser. It may have died.
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f254b30-797d-4698-aab5-484010edecb4, clickElement [id]]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 1329, moz:profile: /var/folders/6z/fn3m8_lx681..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Element: [[FirefoxDriver: firefox on mac (6f254b30-797d-4698-aab5-484010edecb4)] -> xpath: //p[.='UI Testing Concepts']]
-	at com.automation.Automation2.HandlingVideo.HandlingVideo(HandlingVideo.java:15)
-Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@5fda3943 rejected from java.util.concurrent.ThreadPoolExecutor@f823394[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 162]
-
-mousehover(com.automation.Automation2.mouseHover)  Time elapsed: 7.095 s  <<< FAILURE!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Error communicating with the remote browser. It may have died.
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f254b30-797d-4698-aab5-484010edecb4, maximizeCurrentWindow []]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 1329, moz:profile: /var/folders/6z/fn3m8_lx681..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-	at com.automation.Automation2.mouseHover.mousehover(mouseHover.java:19)
-Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@5fda3943 rejected from java.util.concurrent.ThreadPoolExecutor@f823394[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 162]
-
-fileUploadPopup(com.automation.Automation2.fileUploadPopup)  Time elapsed: 7.096 s  <<< FAILURE!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Error communicating with the remote browser. It may have died.
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f254b30-797d-4698-aab5-484010edecb4, findElement [value, using]]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 1329, moz:profile: /var/folders/6z/fn3m8_lx681..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-	at com.automation.Automation2.fileUploadPopup.fileUploadPopup(fileUploadPopup.java:19)
-Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@5fda3943 rejected from java.util.concurrent.ThreadPoolExecutor@f823394[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 162]
-
-toolTipUsingMouseHover(com.automation.Automation2.toolTipUsingMouseHover)  Time elapsed: 7.097 s  <<< FAILURE!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Error communicating with the remote browser. It may have died.
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f254b30-797d-4698-aab5-484010edecb4, clickElement [id]]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 1329, moz:profile: /var/folders/6z/fn3m8_lx681..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-Element: [[FirefoxDriver: firefox on mac (6f254b30-797d-4698-aab5-484010edecb4)] -> xpath: //p[.='UI Testing Concepts']]
-	at com.automation.Automation2.toolTipUsingMouseHover.toolTipUsingMouseHover(toolTipUsingMouseHover.java:15)
-Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@5fda3943 rejected from java.util.concurrent.ThreadPoolExecutor@f823394[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 162]
-
-dragandDropMultiple(com.automation.Automation2.dragandDropMultiple)  Time elapsed: 7.097 s  <<< FAILURE!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Error communicating with the remote browser. It may have died.
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6f254b30-797d-4698-aab5-484010edecb4, maximizeCurrentWindow []]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0, moz:accessibilityChecks: false, moz:buildID: 20240923135042, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 1329, moz:profile: /var/folders/6z/fn3m8_lx681..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
-	at com.automation.Automation2.dragandDropMultiple.dragandDropMultiple(dragandDropMultiple.java:20)
-Caused by: java.util.concurrent.RejectedExecutionException: Task jdk.internal.net.http.common.SequentialScheduler$SchedulableTask@5fda3943 rejected from java.util.concurrent.ThreadPoolExecutor@f823394[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 162]
-
-fileUploadPopup(com.automation.Automation2.fileUploadPopup)  Time elapsed: 4.114 s  <<< FAILURE!
-org.openqa.selenium.InvalidArgumentException: 
-invalid argument: File not found : /Users/testvagrant/Downloads/Automation-master/./Data/Arjun R Resume.docx
-  (Session info: chrome=129.0.6668.90)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.0.1', java.version: '23'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [24f7c3d367d1c156e88c7621849dff15, sendKeysToElement {value=[Ljava.lang.CharSequence;@34f22f9d, id=f.00796147FA56EC9A42BD859D65C85E59.d.7BD7FF2DB818027E5EE3B9265659236E.e.79}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.90, chrome: {chromedriverVersion: 129.0.6668.91 (b00bc8b76d60..., userDataDir: /var/folders/6z/fn3m8_lx681...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50618}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50618/devtoo..., se:cdpVersion: 129.0.6668.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on mac (24f7c3d367d1c156e88c7621849dff15)] -> id: fileInput]
-Session ID: 24f7c3d367d1c156e88c7621849dff15
-	at com.automation.Automation2.fileUploadPopup.fileUploadPopup(fileUploadPopup.java:26)
+Command: [0a216d73-6362-48a1-9ace-98036fcd6db1, actions {actions=[org.openqa.selenium.interactions.Sequence@552d06c8]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 24.0.0, moz:processID: 3321, moz:profile: /var/folders/6z/fn3m8_lx681..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 0a216d73-6362-48a1-9ace-98036fcd6db1
+	at com.automation.Automation2.mouseHover.mousehover(mouseHover.java:39)
 

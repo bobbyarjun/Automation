@@ -21,32 +21,58 @@ import org.testng.annotations.Parameters;
  */
 public class BaseClass extends SetupDriver {
 	private static final String URL = "https://demoapps.qspiders.com/";
-	 WebDriver driver;
+	WebDriver driver;
 	@BeforeMethod
 	@Parameters("browser")
 	public void setup(String browser) throws IOException {
 
-	      if (browser.equalsIgnoreCase("firefox")) {
-	         System.out.println("Executing on FireFox");
-	         setDriver(browser);
-	         driver=getDriver();
-	         driver.get(URL);
-	         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-	         driver.manage().window().maximize();
-	      } else if (browser.equalsIgnoreCase("chrome")) {
-	         System.out.println("Executing on CHROME");
-	         setDriver(browser);
-	         driver=getDriver();
-	 		driver.get(URL);
-	 		driver.manage().window().maximize();
-	 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-	      }  else {
-	         throw new IllegalArgumentException("The Browser Type is Undefined");
-	      }
-		
+		if (browser.equalsIgnoreCase("firefox")) {
+			System.out.println("Executing on FireFox");
+			setDriver(browser);
+			driver=getDriver();
+			if(getClass().getSimpleName().contains("printAllAutoSuggestions") || getClass().getSimpleName().contains("scrollingToElement")){
+				driver.get("https://www.flipkart.com");
+				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+				driver.manage().window().maximize();
+			}
+			else if(getClass().getSimpleName().contains("Demo")){
+				driver.get("https://secure.indeed.com");
+				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+				driver.manage().window().maximize();
+			}
+			else {
+				driver.get(URL);
+				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+				driver.manage().window().maximize();
+			}
+
+		} else if (browser.equalsIgnoreCase("chrome")) {
+			System.out.println("Executing on CHROME");
+			setDriver(browser);
+			driver=getDriver();
+			if(getClass().getSimpleName().contains("printAllAutoSuggestions") || getClass().getSimpleName().contains("scrollingToElement")){
+				driver.get("https://www.flipkart.com");
+				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+				driver.manage().window().maximize();
+			}
+			else if(getClass().getSimpleName().contains("Demo")){
+				driver.get("https://secure.indeed.com");
+				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+				driver.manage().window().maximize();
+			}
+			else {
+				driver.get(URL);
+				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+				driver.manage().window().maximize();
+			}
+
+		}  else {
+			throw new IllegalArgumentException("The Browser Type is Undefined");
+		}
+
 	}
 	@AfterMethod
 	public void teardown() {
-			driver.quit();
+		driver.quit();
 	}
-	}
+}

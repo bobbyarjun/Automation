@@ -15,7 +15,6 @@ public class printAllAutoSuggestions  extends BaseClass{
 	@Test
 
 	public void printAllSughestions() {
-		driver.get("https://www.flipkart.com/");
 		driver.findElement(By.cssSelector("input[class=\"Pke_EE\"]")).sendKeys("samsung m32 5g");
 		List<WebElement> allsuggestions=driver.findElements(By.xpath("//ul[@class=\"_1sFryS _2x2Mmc\"]/li"));
 		int count=allsuggestions.size();

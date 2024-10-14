@@ -11,13 +11,6 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- com.automation.Automation2.mouseHover -->
-      <class name="com.automation.Automation2.scrollingToElement">
-        <methods>
-          <include name="scrollingToElement"/>
-          <include name="setup"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.automation.Automation2.scrollingToElement -->
     </classes>
   </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

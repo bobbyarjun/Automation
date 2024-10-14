@@ -30,7 +30,6 @@ public class Demo extends BaseClass{
 	@Test
 	public  void Demo() throws Exception{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-		driver.get("https://secure.indeed.com");
 		driver.manage().window().maximize();
 		String title = driver.getTitle();
 		System.out.println(title);

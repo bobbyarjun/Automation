@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Automation2.scrollingToElement">
+      <class name="com.automation.Automation2.printAllAutoSuggestions">
         <methods>
-          <include name="scrollingToElement"/>
           <include name="setup"/>
+          <include name="printAllSughestions"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.automation.Automation2.scrollingToElement -->
+      </class> <!-- com.automation.Automation2.printAllAutoSuggestions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
